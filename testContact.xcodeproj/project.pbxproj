@@ -7,29 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0740B72161CA1D00A58F50 /* john.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AC31B21129A9800DFC536 /* john.vcf */; };
 		7E11ABFE210F137000A8C02E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E11ABFD210F137000A8C02E /* AppDelegate.m */; };
-		7E11AC01210F137000A8C02E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E11AC00210F137000A8C02E /* ViewController.m */; };
-		7E11AC04210F137000A8C02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E11AC02210F137000A8C02E /* Main.storyboard */; };
 		7E11AC06210F137200A8C02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E11AC05210F137200A8C02E /* Assets.xcassets */; };
 		7E11AC09210F137200A8C02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E11AC07210F137200A8C02E /* LaunchScreen.storyboard */; };
 		7E11AC0C210F137200A8C02E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E11AC0B210F137200A8C02E /* main.m */; };
+		7E11E422212D11ED006F6035 /* dummy-contacts.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 7E11E421212D11ED006F6035 /* dummy-contacts.vcf */; };
+		7E284167215C8151003EEEAB /* contacts.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 7E284166215C8151003EEEAB /* contacts.vcf */; };
+		7E28416A215C8700003EEEAB /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E284169215C8700003EEEAB /* RootTableViewController.m */; };
+		7E3B97B4219BE1520031C100 /* testContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B97B3219BE1520031C100 /* testContactTests.m */; };
+		7E3B97D4219D33690031C100 /* TestRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BF16C2154947D00FBE9F9 /* TestRACViewController.m */; };
+		7E3B97D9219D33930031C100 /* RACDisposeBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B97D5219D33920031C100 /* RACDisposeBag.m */; };
+		7E3B97DA219D33930031C100 /* RACDisposable+DisposeBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B97D7219D33930031C100 /* RACDisposable+DisposeBag.m */; };
+		7E432A9B2158C6650064A913 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E432A9A2158C6650064A913 /* Person.m */; };
+		7E4BD2562110232A0067C12A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BD2552110232A0067C12A /* ContactViewController.swift */; };
+		7E4BD258211023D40067C12A /* ParseContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BD257211023D40067C12A /* ParseContact.swift */; };
+		7E6AC3192112952A00DFC536 /* David1.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AC3172112952900DFC536 /* David1.vcf */; };
+		7E6AC31A2112952A00DFC536 /* David2.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AC3182112952A00DFC536 /* David2.vcf */; };
+		7E7BF16A215493EF00FBE9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7BF169215493EF00FBE9F9 /* Main.storyboard */; };
+		7E8000A92126948200C16CAF /* BBMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8000A82126948200C16CAF /* BBMUser.m */; };
+		7E92BAEA213505BD00078426 /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E92BAE9213505BD00078426 /* ImageTableViewController.m */; };
+		7E92BAEE2135080900078426 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E92BAEC2135080900078426 /* ImageTableViewCell.m */; };
+		7E92BAEF2135080900078426 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E92BAED2135080900078426 /* ImageTableViewCell.xib */; };
+		AAB553E01422BBC33B194E19 /* Pods_testContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7637E9C0B9B799DD5D291B4B /* Pods_testContact.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7E3B97B6219BE1520031C100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E11ABF1210F137000A8C02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E11ABF8210F137000A8C02E;
+			remoteInfo = testContact;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5ADB4085D479F9E570138E77 /* Pods-testContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-testContact/Pods-testContact.release.xcconfig"; sourceTree = "<group>"; };
+		7637E9C0B9B799DD5D291B4B /* Pods_testContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E11ABF9210F137000A8C02E /* testContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E11ABFC210F137000A8C02E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E11ABFD210F137000A8C02E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E11ABFF210F137000A8C02E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E11AC00210F137000A8C02E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7E11AC03210F137000A8C02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E11AC05210F137200A8C02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E11AC08210F137200A8C02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E11AC0A210F137200A8C02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E11AC0B210F137200A8C02E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E11E421212D11ED006F6035 /* dummy-contacts.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dummy-contacts.vcf"; sourceTree = "<group>"; };
+		7E284166215C8151003EEEAB /* contacts.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contacts.vcf; sourceTree = "<group>"; };
+		7E284168215C8700003EEEAB /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		7E284169215C8700003EEEAB /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		7E3B97B1219BE1520031C100 /* testContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B97B3219BE1520031C100 /* testContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testContactTests.m; sourceTree = "<group>"; };
+		7E3B97B5219BE1520031C100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B97D5219D33920031C100 /* RACDisposeBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDisposeBag.m; sourceTree = "<group>"; };
+		7E3B97D6219D33920031C100 /* RACDisposable+DisposeBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACDisposable+DisposeBag.h"; sourceTree = "<group>"; };
+		7E3B97D7219D33930031C100 /* RACDisposable+DisposeBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACDisposable+DisposeBag.m"; sourceTree = "<group>"; };
+		7E3B97D8219D33930031C100 /* RACDisposeBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACDisposeBag.h; sourceTree = "<group>"; };
+		7E3B97DD219D37380031C100 /* EXTScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		7E432A992158C6650064A913 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7E432A9A2158C6650064A913 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7E4BD2542110232A0067C12A /* testContact-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testContact-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E4BD2552110232A0067C12A /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		7E4BD257211023D40067C12A /* ParseContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseContact.swift; sourceTree = "<group>"; };
+		7E6AC3172112952900DFC536 /* David1.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = David1.vcf; sourceTree = "<group>"; };
+		7E6AC3182112952A00DFC536 /* David2.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = David2.vcf; sourceTree = "<group>"; };
+		7E6AC31B21129A9800DFC536 /* john.vcf */ = {isa = PBXFileReference; lastKnownFileType = text; path = john.vcf; sourceTree = "<group>"; };
+		7E7BF169215493EF00FBE9F9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E7BF16B2154947D00FBE9F9 /* TestRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACViewController.h; sourceTree = "<group>"; };
+		7E7BF16C2154947D00FBE9F9 /* TestRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACViewController.m; sourceTree = "<group>"; };
+		7E8000A72126948200C16CAF /* BBMUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMUser.h; sourceTree = "<group>"; };
+		7E8000A82126948200C16CAF /* BBMUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMUser.m; sourceTree = "<group>"; };
+		7E92BAE8213505BD00078426 /* ImageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewController.h; sourceTree = "<group>"; };
+		7E92BAE9213505BD00078426 /* ImageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
+		7E92BAEB2135080900078426 /* ImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		7E92BAEC2135080900078426 /* ImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		7E92BAED2135080900078426 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		EA142AC6E220F1F7C957F41B /* Pods-testContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testContact/Pods-testContact.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7E11ABF6210F137000A8C02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB553E01422BBC33B194E19 /* Pods_testContact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B97AE219BE1520031C100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				7E11ABFB210F137000A8C02E /* testContact */,
+				7E3B97B2219BE1520031C100 /* testContactTests */,
 				7E11ABFA210F137000A8C02E /* Products */,
+				7E4BD2542110232A0067C12A /* testContact-Bridging-Header.h */,
+				E4F94C4BE776CB92C956CDD0 /* Pods */,
+				B26CE8F208E9110CBFFDAD1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				7E11ABF9210F137000A8C02E /* testContact.app */,
+				7E3B97B1219BE1520031C100 /* testContactTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,17 +128,66 @@
 		7E11ABFB210F137000A8C02E /* testContact */ = {
 			isa = PBXGroup;
 			children = (
+				7E3B97D6219D33920031C100 /* RACDisposable+DisposeBag.h */,
+				7E3B97D7219D33930031C100 /* RACDisposable+DisposeBag.m */,
+				7E3B97D8219D33930031C100 /* RACDisposeBag.h */,
+				7E3B97D5219D33920031C100 /* RACDisposeBag.m */,
+				7E284166215C8151003EEEAB /* contacts.vcf */,
+				7E6AC3172112952900DFC536 /* David1.vcf */,
+				7E6AC31B21129A9800DFC536 /* john.vcf */,
+				7E6AC3182112952A00DFC536 /* David2.vcf */,
+				7E3B97DD219D37380031C100 /* EXTScope.h */,
+				7E11E421212D11ED006F6035 /* dummy-contacts.vcf */,
+				7E4BD2552110232A0067C12A /* ContactViewController.swift */,
 				7E11ABFC210F137000A8C02E /* AppDelegate.h */,
 				7E11ABFD210F137000A8C02E /* AppDelegate.m */,
-				7E11ABFF210F137000A8C02E /* ViewController.h */,
-				7E11AC00210F137000A8C02E /* ViewController.m */,
-				7E11AC02210F137000A8C02E /* Main.storyboard */,
+				7E432A992158C6650064A913 /* Person.h */,
+				7E432A9A2158C6650064A913 /* Person.m */,
+				7E8000A72126948200C16CAF /* BBMUser.h */,
+				7E7BF169215493EF00FBE9F9 /* Main.storyboard */,
+				7E284168215C8700003EEEAB /* RootTableViewController.h */,
+				7E284169215C8700003EEEAB /* RootTableViewController.m */,
+				7E7BF16B2154947D00FBE9F9 /* TestRACViewController.h */,
+				7E7BF16C2154947D00FBE9F9 /* TestRACViewController.m */,
+				7E8000A82126948200C16CAF /* BBMUser.m */,
+				7E4BD257211023D40067C12A /* ParseContact.swift */,
+				7E92BAE8213505BD00078426 /* ImageTableViewController.h */,
+				7E92BAE9213505BD00078426 /* ImageTableViewController.m */,
+				7E92BAEB2135080900078426 /* ImageTableViewCell.h */,
+				7E92BAEC2135080900078426 /* ImageTableViewCell.m */,
+				7E92BAED2135080900078426 /* ImageTableViewCell.xib */,
 				7E11AC05210F137200A8C02E /* Assets.xcassets */,
 				7E11AC07210F137200A8C02E /* LaunchScreen.storyboard */,
 				7E11AC0A210F137200A8C02E /* Info.plist */,
 				7E11AC0B210F137200A8C02E /* main.m */,
 			);
 			path = testContact;
+			sourceTree = "<group>";
+		};
+		7E3B97B2219BE1520031C100 /* testContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B97B3219BE1520031C100 /* testContactTests.m */,
+				7E3B97B5219BE1520031C100 /* Info.plist */,
+			);
+			path = testContactTests;
+			sourceTree = "<group>";
+		};
+		B26CE8F208E9110CBFFDAD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7637E9C0B9B799DD5D291B4B /* Pods_testContact.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F94C4BE776CB92C956CDD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA142AC6E220F1F7C957F41B /* Pods-testContact.debug.xcconfig */,
+				5ADB4085D479F9E570138E77 /* Pods-testContact.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E11AC0F210F137200A8C02E /* Build configuration list for PBXNativeTarget "testContact" */;
 			buildPhases = (
+				477F95AD6374D5914E5D6FF8 /* [CP] Check Pods Manifest.lock */,
 				7E11ABF5210F137000A8C02E /* Sources */,
 				7E11ABF6210F137000A8C02E /* Frameworks */,
 				7E11ABF7210F137000A8C02E /* Resources */,
+				24FDECD2B9234CA2F91AEBEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +211,24 @@
 			productName = testContact;
 			productReference = 7E11ABF9210F137000A8C02E /* testContact.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7E3B97B0219BE1520031C100 /* testContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B97BA219BE1520031C100 /* Build configuration list for PBXNativeTarget "testContactTests" */;
+			buildPhases = (
+				7E3B97AD219BE1520031C100 /* Sources */,
+				7E3B97AE219BE1520031C100 /* Frameworks */,
+				7E3B97AF219BE1520031C100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3B97B7219BE1520031C100 /* PBXTargetDependency */,
+			);
+			name = testContactTests;
+			productName = testContactTests;
+			productReference = 7E3B97B1219BE1520031C100 /* testContactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,6 +241,11 @@
 				TargetAttributes = {
 					7E11ABF8210F137000A8C02E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					7E3B97B0219BE1520031C100 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7E11ABF8210F137000A8C02E;
 					};
 				};
 			};
@@ -119,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				7E11ABF8210F137000A8C02E /* testContact */,
+				7E3B97B0219BE1520031C100 /* testContactTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,36 +273,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E92BAEF2135080900078426 /* ImageTableViewCell.xib in Resources */,
 				7E11AC09210F137200A8C02E /* LaunchScreen.storyboard in Resources */,
+				7E6AC3192112952A00DFC536 /* David1.vcf in Resources */,
+				7E6AC31A2112952A00DFC536 /* David2.vcf in Resources */,
+				7E0740B72161CA1D00A58F50 /* john.vcf in Resources */,
+				7E284167215C8151003EEEAB /* contacts.vcf in Resources */,
 				7E11AC06210F137200A8C02E /* Assets.xcassets in Resources */,
-				7E11AC04210F137000A8C02E /* Main.storyboard in Resources */,
+				7E7BF16A215493EF00FBE9F9 /* Main.storyboard in Resources */,
+				7E11E422212D11ED006F6035 /* dummy-contacts.vcf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B97AF219BE1520031C100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24FDECD2B9234CA2F91AEBEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testContact/Pods-testContact-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testContact/Pods-testContact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477F95AD6374D5914E5D6FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testContact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E11ABF5210F137000A8C02E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E11AC01210F137000A8C02E /* ViewController.m in Sources */,
+				7E4BD258211023D40067C12A /* ParseContact.swift in Sources */,
+				7E3B97D9219D33930031C100 /* RACDisposeBag.m in Sources */,
+				7E3B97DA219D33930031C100 /* RACDisposable+DisposeBag.m in Sources */,
+				7E8000A92126948200C16CAF /* BBMUser.m in Sources */,
+				7E28416A215C8700003EEEAB /* RootTableViewController.m in Sources */,
+				7E432A9B2158C6650064A913 /* Person.m in Sources */,
+				7E4BD2562110232A0067C12A /* ContactViewController.swift in Sources */,
 				7E11AC0C210F137200A8C02E /* main.m in Sources */,
+				7E92BAEE2135080900078426 /* ImageTableViewCell.m in Sources */,
+				7E3B97D4219D33690031C100 /* TestRACViewController.m in Sources */,
 				7E11ABFE210F137000A8C02E /* AppDelegate.m in Sources */,
+				7E92BAEA213505BD00078426 /* ImageTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B97AD219BE1520031C100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B97B4219BE1520031C100 /* testContactTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7E11AC02210F137000A8C02E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E11AC03210F137000A8C02E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		7E3B97B7219BE1520031C100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E11ABF8210F137000A8C02E /* testContact */;
+			targetProxy = 7E3B97B6219BE1520031C100 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		7E11AC07210F137200A8C02E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,33 +495,92 @@
 		};
 		7E11AC10210F137200A8C02E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA142AC6E220F1F7C957F41B /* Pods-testContact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 462693YXF2;
 				INFOPLIST_FILE = testContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dasdsadasd.testContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testContact-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7E11AC11210F137200A8C02E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ADB4085D479F9E570138E77 /* Pods-testContact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 462693YXF2;
 				INFOPLIST_FILE = testContact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dasdsadasd.testContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testContact-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E3B97B8219BE1520031C100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testContactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dasdsadasd.testContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testContact.app/testContact";
+			};
+			name = Debug;
+		};
+		7E3B97B9219BE1520031C100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testContactTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dasdsadasd.testContactTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testContact.app/testContact";
 			};
 			name = Release;
 		};
@@ -328,6 +601,15 @@
 			buildConfigurations = (
 				7E11AC10210F137200A8C02E /* Debug */,
 				7E11AC11210F137200A8C02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B97BA219BE1520031C100 /* Build configuration list for PBXNativeTarget "testContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B97B8219BE1520031C100 /* Debug */,
+				7E3B97B9219BE1520031C100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

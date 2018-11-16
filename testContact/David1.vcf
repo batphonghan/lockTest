@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.4//EN
+N:Taylor;David;;;
+FN: TEST 1
+EMAIL;type=INTERNET;type=HOME;type=pref:d-higgins1@mac.com
+TEL;type=HOME;type=VOICE;type=pref:555-610-6679
+item1.ADR;type=HOME;type=pref:;;1747 Steuart Street;Tiburon;CA;94920;USA
+item1.X-ABADR:us
+BDAY:1998-06-15
+END:VCARD
